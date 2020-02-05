@@ -1,0 +1,32 @@
+.projects-header__main {
+    background-color: rgb(49, 53, 56);
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-title {
+    width: 50%;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.projects-p {
+    font-weight: 300;
+    width: 50%;
+}
+
+@media(max-width: 780px) {
+    .projects-header__main {
+        padding: 1.5rem;
+    }
+
+    .projects-p {
+        width: 100%;
+    }
+}

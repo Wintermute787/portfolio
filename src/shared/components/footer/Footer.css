@@ -1,0 +1,38 @@
+.footer-main {
+    background-color: rgb(49, 53, 56);
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+
+}
+
+.footer-contact {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+
+}
+
+.footer-contact a {
+    list-style: none;
+    color: white;
+}
+
+.footer-contact a:hover {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+@media(max-width: 780px) {
+    .footer-contact {
+        width: 100%;
+    }
+}

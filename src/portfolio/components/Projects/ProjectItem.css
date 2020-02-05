@@ -1,0 +1,41 @@
+.project-main {
+  /* border: 1px solid red; */
+  height: 25rem;
+  display: flex;
+  margin-top: 3rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid grey;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.project-image {
+  /* border: 1px solid blue; */
+}
+
+.project-content {
+  text-align: center;
+
+  margin-left: 5rem;
+}
+
+img {
+  height: 350px;
+  width: 600px;
+}
+
+@media (max-width: 780px) {
+  .project-main {
+    flex-direction: column;
+    height: 30rem;
+  }
+  img {
+    height: 200px;
+    width: 300px;
+  }
+  .project-content {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+}
